@@ -39,3 +39,22 @@ Covers recording failures, runtime press/release bugs, permission problems, and 
 ```bash
 claude skills install https://github.com/elaineyxu/macos-global-hotkey-troubleshooting
 ```
+
+**OpenAI Codex** — clone the repo and reference the files in your session:
+
+```bash
+git clone https://github.com/elaineyxu/macos-global-hotkey-troubleshooting
+codex "Debug this hotkey issue" --context macos-global-hotkey-troubleshooting/SKILL.md
+```
+
+**Cursor** — add the files to your project rules so Cursor picks them up automatically:
+
+```bash
+git clone https://github.com/elaineyxu/macos-global-hotkey-troubleshooting .cursor/rules/macos-global-hotkey-troubleshooting
+```
+
+Then reference the guide in your Cursor chat: `use @macos-global-hotkey-troubleshooting/SKILL.md`.
+
+## Credits
+
+Written by [OpenAI Codex](https://openai.com/codex).
