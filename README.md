@@ -55,6 +55,3 @@ git clone https://github.com/elaineyxu/macos-global-hotkey-troubleshooting .curs
 
 Then reference the guide in your Cursor chat: `use @macos-global-hotkey-troubleshooting/SKILL.md`.
 
-## Credits
-
-Written by [OpenAI Codex](https://openai.com/codex).
